@@ -1,0 +1,96 @@
+.container {
+  max-width: 1100px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.date {
+  color: rgb(220, 101, 101);
+}
+
+.header {
+  text-align: center;
+  border: 3px solid rgb(247, 247, 203);
+  border-radius: 10px;
+  padding: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.chart-container {
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding: 50px;
+  margin: 0 auto;
+  width: 900px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.new-button-container {
+  margin: 10px;
+}
+
+.btn {
+  color: white;
+  background-color: rgb(65, 65, 209);
+  border: none;
+  margin-bottom: 6px;
+  width: 200px;
+  height: 50px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: rgb(185, 121, 245);
+  border: none;
+}
+
+#button-delete,
+#button-done {
+  background-color: rgb(101, 101, 181);
+  width: 70px;
+  height: 40px;
+}
+
+#button-delete:hover,
+#button-done:hover {
+  background-color: rgb(58, 58, 199);
+  margin: 0 auto;
+}
+
+.disabled {
+  display: none;
+}
+
+input {
+  color: rgb(105, 102, 102);
+  padding: 10px;
+  margin: 10px;
+  border: 3px solid rgb(174, 174, 138);
+  border-radius: 5px;
+  width: 250px;
+  height: 50px;
+}
+
+input::placeholder {
+  font-weight: 400;
+  color: rgb(158, 72, 72);
+}
+
+.mb-3 {
+  display: none;
+  padding-bottom: 20px;
+  margin: 10px;
+}
