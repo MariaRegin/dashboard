@@ -29,7 +29,7 @@ new Chart(ctx, {
     labels: ["10:00", "12:00", "14:00", "16:00", "18:00", "20:00", "22:00"],
     datasets: [
       {
-        label: "Activities During The Day",
+        label: "Tasks By Hour",
         data: [1, 5, 3, 5, 2, 3, 1],
       },
     ],
