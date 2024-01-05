@@ -24,7 +24,8 @@
   border-radius: 5px;
   padding: 50px;
   margin: 0 auto;
-  width: 900px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .card-container {
@@ -93,4 +94,16 @@ input::placeholder {
   display: none;
   padding-bottom: 20px;
   margin: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .chart-container {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 900) {
+  .chart-container {
+    max-width: 500px;
+  }
 }
